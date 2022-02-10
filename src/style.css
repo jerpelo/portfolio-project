@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #596e79;
+  --secondary-color: #c7b198;
+  --background-color: #f0ece2;
+  --primary-heading-font: "Rock Salt", cursive;
+  --secondary-heading-font: "Dosis", sans-serif;
+  --primary-heading-font-size: 60px;
+  --secondary-heading-font-size: 36px;
+}
+.homepage-hero {
+  background: var(--background-color);
+  padding: 100px 20px;
+  text-align: center;
+}
+h1 {
+  color: var(--primary-color);
+  font-family: var(--primary-heading-font);
+  font-size: var(--primary-heading-font-size);
+}
+h2 {
+  font-family: var(--secondary-heading-font);
+  color: var(--secondary-color);
+  font-size: var(--secondary-heading-font-size);
+}
