@@ -54,6 +54,9 @@ img {
   border: 1px solid;
   text-align: center;
 }
+.row {
+  margin-bottom: 100px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -76,5 +79,8 @@ img {
   }
   .featured-title {
     padding: 50px;
+  }
+  .row {
+    margin-bottom: 70px;
   }
 }
