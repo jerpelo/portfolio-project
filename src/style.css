@@ -2,23 +2,79 @@
   --primary-color: #596e79;
   --secondary-color: #c7b198;
   --background-color: #f0ece2;
-  --primary-heading-font: "Rock Salt", cursive;
-  --secondary-heading-font: "Dosis", sans-serif;
-  --primary-heading-font-size: 60px;
-  --secondary-heading-font-size: 36px;
+  --primary-font: "Rock Salt", cursive;
+  --secondary-font: "Dosis", sans-serif;
+  --primary-font-size: 72px;
+  --secondary-font-size: 48px;
 }
 .homepage-hero {
   background: var(--background-color);
-  padding: 100px 20px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   text-align: center;
 }
 h1 {
   color: var(--primary-color);
-  font-family: var(--primary-heading-font);
-  font-size: var(--primary-heading-font-size);
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
 }
 h2 {
-  font-family: var(--secondary-heading-font);
+  font-family: var(--secondary-font);
   color: var(--secondary-color);
-  font-size: var(--secondary-heading-font-size);
+  font-size: var(--secondary-font-size);
+}
+.featured-title {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  text-align: center;
+  padding: 75px;
+}
+h3 {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: var(--secondary-font-size);
+}
+p {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.project-link {
+  background: var(--background-color);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.project-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+img {
+  border: 1px solid;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .project-link {
+    font-size: 18px;
+  }
+  .featured-content {
+    text-align: center;
+  }
+  .featured-title {
+    padding: 50px;
+  }
 }
