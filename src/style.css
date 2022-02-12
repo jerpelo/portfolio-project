@@ -7,7 +7,7 @@
   --primary-font-size: 72px;
   --secondary-font-size: 48px;
 }
-.homepage-hero {
+.page-hero {
   background: var(--background-color);
   padding-top: 150px;
   padding-bottom: 100px;
@@ -23,7 +23,7 @@ h2 {
   color: var(--secondary-color);
   font-size: var(--secondary-font-size);
 }
-.featured-title {
+.feature-title {
   color: var(--primary-color);
   font-family: var(--primary-font);
   text-align: center;
@@ -37,6 +37,8 @@ h3 {
 p {
   font-size: 30px;
   line-height: 1.5;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
 }
 .project-link {
   background: var(--background-color);
@@ -51,11 +53,15 @@ p {
   color: var(--primary-color);
 }
 img {
-  border: 1px solid;
+  border: 1px solid var(--secondary-color);
   text-align: center;
 }
 .row {
   margin-bottom: 100px;
+}
+.me {
+  border-radius: 300px;
+  margin: 0 auto;
 }
 @media (max-width: 576px) {
   h1 {
@@ -77,10 +83,13 @@ img {
   .featured-content {
     text-align: center;
   }
-  .featured-title {
+  .feature-title {
     padding: 50px;
   }
   .row {
     margin-bottom: 70px;
+  }
+  .me {
+    width: 250px;
   }
 }
