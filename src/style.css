@@ -63,6 +63,12 @@ img {
   border-radius: 300px;
   margin: 0 auto;
 }
+.project {
+  margin: 0 auto;
+}
+.project:hover {
+  border: 3px solid var(--secondary-color);
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
