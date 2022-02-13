@@ -9,7 +9,8 @@
 }
 .page-hero {
   background: var(--background-color);
-  padding: 100px 20px;
+  padding-top: 100px;
+  padding-bottom: 136px;
   text-align: center;
 }
 h1 {
@@ -103,6 +104,10 @@ nav li.active a {
   color: var(--secondary-color);
 }
 @media (max-width: 576px) {
+  .page-hero {
+    padding-top: 73px;
+    padding-bottom: 100px;
+  }
   h1 {
     font-size: 36px;
   }
@@ -134,7 +139,7 @@ nav li.active a {
   nav a {
     font-size: 18px;
   }
-  nav {
-    justify-content: center;
+  nav li {
+    margin-right: 7px;
   }
 }
