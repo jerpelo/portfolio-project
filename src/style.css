@@ -69,6 +69,18 @@ img {
 .project:hover {
   border: 3px solid var(--secondary-color);
 }
+.contact-links {
+  text-align: center;
+}
+.contact-links a {
+  font-size: 30px;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.contact-links a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
