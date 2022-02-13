@@ -9,8 +9,7 @@
 }
 .page-hero {
   background: var(--background-color);
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 100px 20px;
   text-align: center;
 }
 h1 {
@@ -81,6 +80,28 @@ img {
 .contact-links a:hover {
   text-decoration: underline;
 }
+nav {
+  background: var(--background-color);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+}
+nav a {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  text-decoration: none;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -109,5 +130,11 @@ img {
   }
   .me {
     width: 250px;
+  }
+  nav a {
+    font-size: 18px;
+  }
+  nav {
+    justify-content: center;
   }
 }
