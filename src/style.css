@@ -123,6 +123,13 @@ nav li.active a {
 .open-source a:hover {
   text-decoration: none;
 }
+.shecodes-link a {
+  color: var(--secondary-color);
+}
+.shecodes-link a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 @media (max-width: 768px) {
   .page-hero {
     padding-top: 73px;
