@@ -56,7 +56,7 @@ img {
   border: 1px solid var(--secondary-color);
   text-align: center;
 }
-.me {
+.jasmine {
   border-radius: 300px;
   margin: 0 auto;
 }
@@ -114,7 +114,16 @@ nav li.active a {
 .social-links a:hover {
   color: var(--secondary-color);
 }
-@media (max-width: 576px) {
+.open-source {
+  font-size: 18px;
+}
+.open-source a {
+  color: var(--primary-color);
+}
+.open-source a:hover {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
   .page-hero {
     padding-top: 73px;
     padding-bottom: 100px;
@@ -139,7 +148,7 @@ nav li.active a {
   .feature-title {
     padding: 50px;
   }
-  .me {
+  .jasmine {
     width: 250px;
   }
   .contact-links a {
