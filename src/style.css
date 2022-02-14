@@ -56,12 +56,12 @@ img {
   border: 1px solid var(--secondary-color);
   text-align: center;
 }
+.row {
+  margin-bottom: 100px;
+}
 .me {
   border-radius: 300px;
   margin: 0 auto;
-}
-.about-content {
-  max-width: 1000px;
 }
 .project {
   margin: 0 auto;
@@ -103,17 +103,6 @@ nav a:hover,
 nav li.active a {
   color: var(--secondary-color);
 }
-.social-links a {
-  margin: 50px 10px;
-  color: var(--primary-color);
-  background: var(--background-color);
-  font-size: 48px;
-  padding: 10px 21px;
-  border-radius: 50%;
-}
-.social-links a:hover {
-  color: var(--secondary-color);
-}
 @media (max-width: 576px) {
   .page-hero {
     padding-top: 73px;
@@ -122,7 +111,9 @@ nav li.active a {
   h1 {
     font-size: 36px;
   }
-  h2,
+  h2 {
+    font-size: 24px;
+  }
   h3 {
     font-size: 24px;
   }
@@ -139,20 +130,16 @@ nav li.active a {
   .feature-title {
     padding: 50px;
   }
+  .row {
+    margin-bottom: 70px;
+  }
   .me {
     width: 250px;
-  }
-  .contact-links a {
-    font-size: 22px;
   }
   nav a {
     font-size: 18px;
   }
   nav li {
     margin-right: 7px;
-  }
-  .social-links a {
-    font-size: 30px;
-    margin-top: 0;
   }
 }
