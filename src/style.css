@@ -161,6 +161,9 @@ nav li.active a {
   .jasmine {
     width: 250px;
   }
+  .about-content {
+    max-width: 600px;
+  }
   .contact-links a {
     font-size: 22px;
   }
